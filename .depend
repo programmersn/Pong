@@ -1,0 +1,5 @@
+font.o: font.c font.h util.h
+gui.o: gui.c gui.h info.h font.h util.h
+info.o: info.c info.h font.h gui.h util.h
+pong.o: pong.c info.h font.h gui.h util.h
+util.o: util.c util.h
